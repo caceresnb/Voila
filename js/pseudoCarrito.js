@@ -1,6 +1,6 @@
 let bienvenida= prompt ("Ingresa los códigos de artículos a cotizar/agregar, cuando quieras finalizar escribe por favor ESC.");
 const producto = prompt("Ingrese por favor el numero de articulo");
-//Repetimos hasta que se ingresa "ESC"
+//Repetimos hasta que se ingresa "ESC"//
 while(producto != "ESC" ){
    switch (producto) {
        case "001":
@@ -8,20 +8,17 @@ while(producto != "ESC" ){
             const cantidad= prompt ("Cuantas unidades quieres?");
             if (cantidad <= 10){
                 alert("El subtotal es de $" + (2200*cantidad));
-                const agregar = prompt ("Quieres agregarlo a tu carrito?").toLowerCase;
             }
             else {
                 alert ("Lo sentimos, actualmente no tenemos tanto stock de ese articulo disponible.");
             }
-            console.log (producto + "-" + cantidad);
-            let producto = prompt("Ingrese por favor el numero de articulo");
+        producto = prompt("Ingrese por favor el numero de articulo");
         break;
         case "002":
             alert("Está disponible, su valor es $2500.");
             cantidad= prompt ("Cuantas unidades quieres?");
             if (cantidad <= 5){
                 alert("El subtotal es de $" + (2200*cantidad));
-                agregar = prompt ("Quieres agregarlo a tu carrito?").toLowerCase;
             }
             else {
                 alert ("Lo sentimos, actualmente no tenemos tanto stock de ese articulo disponible.");
@@ -34,7 +31,6 @@ while(producto != "ESC" ){
             cantidad= prompt ("Cuantas unidades quieres?");
             if (cantidad <= 8){
                 alert("El subtotal es de $" + (2200*cantidad));
-                agregar = prompt ("Quieres agregarlo a tu carrito?").toLowerCase;
             }
             else {
                 alert ("Lo sentimos, actualmente no tenemos tanto stock de ese articulo disponible.");
