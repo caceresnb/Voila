@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "titulo": "Bikini Barcelona",
+        "precioReal": 2800,
+        "precioRebajado": 2300,
+        "img": "barcelona.jpg",
+        "dataId": "001"
+    },
+    {
+        "id": 2,
+        "titulo": "Enteriza Berlín",
+        "precioReal": 3500,
+        "precioRebajado": 2600,
+        "img": "berlin.jpg",
+        "dataId": "002"
+    },
+    {
+        "id": 3,
+        "titulo": "Bikini Budapest",
+        "precioReal": 2800,
+        "precioRebajado": 2300,
+        "img": "budapest.jpg",
+        "dataId": "003"
+    },
+    {
+        "id": 4,
+        "titulo": "Bikini Ibiza",
+        "precioReal": 2800,
+        "precioRebajado": 2300,
+        "img": "ibiza.jpg",
+        "dataId": "004"
+    },
+    {
+        "id": 5,
+        "titulo": "Bikini Marruecos",
+        "precioReal": 2800,
+        "precioRebajado": 2300,
+        "img": "marruecos.jpg",
+        "dataId": "005"
+    },
+    {
+        "id": 6,
+        "titulo": "Bikini Marruecos",
+        "precioReal": 2800,
+        "precioRebajado": 2300,
+        "img": "marruecos2.jpg",
+        "dataId": "006"
+    },
+    {
+        "id": 7,
+        "titulo": "Bikini Monaco",
+        "precioReal": 2800,
+        "precioRebajado": 2300,
+        "img": "valencia.jpg",
+        "dataId": "007"
+    },
+    {
+        "id": 8,
+        "titulo": "Bikini Valencia",
+        "precioReal": 2800,
+        "precioRebajado": 2300,
+        "img": "valencia.jpg",
+        "dataId": "008"
+    },
+    {
+        "id": 9,
+        "titulo": "Bikini Verona",
+        "precioReal": 2800,
+        "precioRebajado": 2300,
+        "img": "verona.jpg",
+        "dataId": "009"
+    },
+    {
+        "id": 10,
+        "titulo": "Bikini Verona",
+        "precioReal": 2800,
+        "precioRebajado": 2300,
+        "img": "veronarosa.jpg",
+        "dataId": "010"
+    },
+]
