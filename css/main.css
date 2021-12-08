@@ -1,0 +1,1577 @@
+@charset "UTF-8";
+/* body */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto'; }
+head,
+body,
+html {
+  margin: 0px;
+  font-family: 'Roboto'; 
+  background-color: rgb(209, 250, 236);
+  overflow-x: hidden;}
+}
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(243, 137, 160, 0.932);
+  font-size: 8vw;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+h2,
+h3,
+h4,
+h5,
+button,
+main,
+p .body .footer .navar {
+  font-family: 'Roboto';
+  color:#616060; }
+
+p {
+  font-size: 16px; }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #616060; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style-type: none;
+  text-decoration: none; }
+
+footer {
+  text-align: left;
+  flex-wrap: nowrap;
+  background-color: rgb(209, 250, 236);
+  font-family:'Roboto';
+  padding: 50px 0px 50px 0px;
+  font-size: 14px; }
+
+.main {
+  background-color: rgb(209, 250, 236); }
+
+.notmargin {
+  margin: 0px;
+  padding: 0px; }
+
+.logoshome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  margin: 50px 70px 20px 70px; }
+
+.espacio {
+  margin: 0px 30px 0px 30px; }
+
+.espacio1 {
+  margin: 0px 0px 0px 70px; }
+
+.position {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.square-brand {
+  display: flex;
+  height: 300px;
+  margin: 0 10px 10px 0;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative; }
+
+.square-brand:hover {
+  transition: .4s ease;
+  box-shadow: 0px 0px 20px #888888; }
+
+.square-brand-text {
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+  color: #383838; }
+
+.square-brand-text h3 {
+  font-weight: bold;
+  font-size: 18px; }
+
+.square-brand-text h6 {
+  font-weight: normal;
+  font-size: 14px; }
+
+.square-brand-product {
+  display: flex;
+  width: 410px;
+  height: 240px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative; }
+  .square-brand-product img {
+    padding-left: 30px; }
+  .square-brand-product:hover {
+    transition: .4s ease;
+    box-shadow: 0px 0px 20px #888888; }
+
+.imput {
+  margin: 10px;
+  padding: 10px; }
+
+.imput option {
+  margin: 20px;
+  padding: 20px; }
+
+.d-flex-contacto {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+.header {
+  z-index: 30;
+  font-weight: 900;
+  background-color:  rgba(252, 197, 209, 0.932);;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  padding: 10px 80px 10px 80px; }
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.logohead {
+  margin-left: 10px;
+  margin-right: 250px; }
+
+.menu-space {
+  flex-wrap: nowrap; }
+
+.wrapmenu {
+  flex-wrap: nowrap; }
+
+.logo-menu-mobile {
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.dropdown-menu {
+  border: none;
+  min-width: 250px;
+  padding: 20px 20px 20px 20px; }
+
+.dropdown-item {
+  font-size: 12px;
+  font-weight: 800;
+  z-index: 30;
+  color: #616060;
+  background-color: #ffff;
+  border-radius: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px 20px 20px 20px; }
+
+.dropdown-item:hover {
+  background-color: rgb(209, 250, 236);
+  color:#616060 !important;
+  border: 0;
+  border-radius: 0px; }
+
+.linea {
+  width: 200px;
+  height: 1px;
+  background: #888888;
+  display: block;
+  margin-bottom: 3px;
+  padding-right: 20px; }
+
+.contactohead1 {
+  font-weight: 900;
+  font-size: 12px;
+  margin: 10px 10px 10px 10px; }
+
+.contactohead3 {
+  font-weight: 900;
+  font-size: 12px;
+  margin: 40px 10px 10px 10px; }
+
+.contactohead2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: normal; }
+
+.coordenadas {
+  margin-left: 30px; }
+
+.redesespacio {
+  margin: 20px 10px 20px 10px; }
+
+.sdider {
+  font-family: 'Rubik', sans-serif;
+  max-width: 100%; }
+
+.logo-footer {
+  margin-bottom: 20px; }
+
+.margin-footer {
+  margin-left: 108px;
+  margin-right: 130px; }
+
+.footer-contacts p {
+  font-size: 12px;
+  color: #616060; }
+
+.footer-list {
+  align-items: flex-start;
+  align-content: space-between; }
+
+.footer-list h4 {
+  font-size: 14px;
+  color: #616060; }
+
+.footer-list h6 {
+  font-size: 14px;
+  color: #616060; }
+
+.footer-list-enlaces {
+  color: #616060; }
+
+.footer-list-enlaces li {
+  color: #616060; }
+
+.footer-list-enlaces a {
+  color: #616060; }
+
+.footer-list-2 {
+  padding: 0px 70px 0px 20px; }
+
+.redesespacio-footer {
+  flex-wrap: wrap;
+  margin-left: 10px;
+  color: #888888;
+  text-decoration: none; }
+
+.redesespacio-footer:hover {
+  margin-left: 10px;
+  color: #616060;
+  text-decoration: none; }
+
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both; }
+
+  .encabezadoChango__titulo {
+    font-family: "Balthazar";
+    color: #3d3f3ff3;
+    font-size: 30px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    letter-spacing: 3px; }
+  
+  .encabezadoChango__chango {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    width: 15em;
+    opacity: 10%;
+    border-radius: 30px; }
+  
+  .pedidosOnline {
+    font-family: 'Balthazar', serif;
+    color: #3d3f3ff3;
+    font-size: 20px;
+    margin-top: 3em;
+    margin-bottom: 10em;
+    margin-left: 28em;
+    line-height: 50px;
+    letter-spacing: 1px;
+    word-spacing: 2px; }
+  
+  .short {
+    width: 3em;
+    margin-left: 2px;
+    margin-right: 2px; }
+  
+  .formularioCentrado, .formularioContacto {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    line-height: 30px; }
+  .opciones {
+    width: 10em;
+  }
+/*********** Productos CSS **********/
+.card {
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px; 
+  margin: 3rem;
+  float: left;
+  position:relative;
+}
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+  background-color: rgb(209, 250, 236);
+}
+.card-group .productos .productos-item {
+  position: relative;
+  width: 338px;
+  height: 553px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-top: 70px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 338px;
+  height: 398px;
+  width: 100%;
+}
+.productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.productos .productos-text h2 {
+  font-size: 19px;
+  margin: 0;
+  font-size: 19px;
+  color: #0D0D0D;
+}
+.productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+  text-decoration:line-through;
+}
+.productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+}
+.productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+}
+.catalogo {
+  margin-left: 4%;
+}
+
+/********** About CSS **********/
+
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  background-color: rgb(209, 250, 236);
+  width: 100%;
+}
+  .about .about__foto {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #616060;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about{
+      position: relative;
+      display: block;
+      text-align: center;
+  }
+  .about .about__centrado{
+      position: absolute;
+      display: block;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 23vw;
+      font-family:BodoniXT;
+  }
+  .about .encabezados {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+  }
+  .fotos .card .card-title {
+    display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 6vw;
+      text-align: center;
+      font-family:BodoniXT;
+  }
+.btn-header {
+  font-size: 1.5rem;
+  background: black;
+  color: #fff !important;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 12px 50px 12px 50px;
+  letter-spacing: 1px; }
+
+.btn-header:hover {
+  background: #DA2A1C;
+  color:#616060;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  padding: 12px 50px 12px 50px;
+  letter-spacing: 1px;
+  transition: .4s ease;
+  box-shadow: 0px 0px 20px #DA2A1C; }
+
+.d-flex-contacto {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.background-profile {
+  background: #f4f4f4;
+  border-radius: 5px; }
+
+.imput {
+  padding: 10px; }
+
+.imput option {
+  padding: 10px; }
+
+.princpal-detalle img {
+  width: 100%;
+  height: 100%; }
+
+.back-imag-detalle img {
+  border-radius: 5px; }
+
+.spam-decore-brand {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  margin-bottom: 100px;
+  margin-top: 100px; }
+  
+  .header__comentario {
+    background-color:rgba(252, 197, 209, 0.932);
+    font-size: 18px;
+    margin-bottom: 20px;
+    height: 2rem;
+    font-family: 'Roboto';
+    text-align: center;
+    color: #616060;;
+}
+
+.logo-menu-mobile{
+  width: 230px;
+}
+
+/* Agregado por titi - sirve  */
+
+@media (max-width: 576px) {
+  #prueba{
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  div.navbar.margin-footer{
+    background-color: #FFFFFF;
+    width: 25rem;
+    margin-left: 0rem;
+  }
+  }
+
+  @media (min-width: 447px) and (max-width: 577px) {
+    div.navbar.margin-footer{
+     display: none;
+    }
+    }
+
+  @media (min-width: 576px) {
+  #footerprod{
+    display: none;
+  }
+}
+
+.quienes{
+  margin-top: 2rem;
+}
+
+.texto {
+  margin-top: 8px;
+ }
+ 
+ .copy {
+   color: #616060;
+   margin-top: 3rem;
+   font-size: smaller;
+   text-align: center;
+ }
+ 
+ .footext {
+   font-size: medium;
+ }
+ 
+ .conection {
+   color:#616060;
+   font-size: x-large;
+ }
+
+ .sdider {
+  font-family: 'Rubik', sans-serif;
+  max-width: 100%; }
+
+.carrousel {
+  margin: 40px 40px 40px 40px; }
+
+.carousel-cell {
+  width: 100%;
+  height: auto; }
+
+.carrousel-cell-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  background-color: #fff; }
+  .carrousel-cell-1 h6 {
+    font-size: 16px;
+    color: #383838;
+    font-weight: bold;
+    text-align: center; }
+  .carrousel-cell-1:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    background-image: url(../img/home-desktop/grupo412.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #888888; }
+    .carrousel-cell-1:hover h6 {
+      display: none; }
+
+.carrousel-cell-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  background-color: #fff; }
+  .carrousel-cell-2 h6 {
+    font-size: 16px;
+    color: #383838;
+    font-weight: bold;
+    text-align: center; }
+  .carrousel-cell-2:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    background-image: url(../img/home-desktop/rrgblackfront2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #888888; }
+    .carrousel-cell-2:hover h6 {
+      display: none; }
+
+.carrousel-cell-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  background-color: #fff; }
+  .carrousel-cell-3 h6 {
+    font-size: 16px;
+    color: #383838;
+    font-weight: bold;
+    text-align: center; }
+  .carrousel-cell-3:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    background-image: url(../img/home-desktop/grupo414.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #888888; }
+    .carrousel-cell-3:hover h6 {
+      display: none; }
+
+.carrousel-cell-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  background-color: #fff; }
+  .carrousel-cell-4 h6 {
+    font-size: 16px;
+    color: #383838;
+    font-weight: bold;
+    text-align: center; }
+  .carrousel-cell-4:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    background-image: url(../img/home-desktop/grupo413.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #888888; }
+    .carrousel-cell-4:hover h6 {
+      display: none; }
+
+.carrousel-cell-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  background-color: #fff; }
+  .carrousel-cell-5 h6 {
+    font-size: 16px;
+    color: #383838;
+    font-weight: bold;
+    text-align: center; }
+  .carrousel-cell-5:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    background-image: url(../img/home-desktop/tracksuit19jacket.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #888888; }
+    .carrousel-cell-5:hover h6 {
+      display: none; }
+
+.carrousel-cell-6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  background-color: #fff; }
+  .carrousel-cell-6 h6 {
+    font-size: 16px;
+    color: #383838;
+    font-weight: bold;
+    text-align: center; }
+  .carrousel-cell-6:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    background-image: url(../img/home-desktop/vhtssands.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #888888; }
+    .carrousel-cell-6:hover h6 {
+      display: none; }
+      
+
+.btn-light{
+  border-bottom-color:black;
+  border-block-start-color:black;
+  border-left-color:black;
+  border-right-color:black;
+  margin:1rem;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .contactos {
+    display: none; }
+  .collapse {
+    display: none; }
+  .redesespacio-footer {
+    display: none; }
+  .footer-redes {
+    display: none; }
+  .footer-list {
+    display: none; }
+  .contactos {
+    display: none; }
+  .imagen-mapa img {
+    display: none; }
+  .redesespacio-footer {
+    display: none; } 
+/*********** Productos CSS **********/
+.card {
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px; 
+  margin: 3rem;
+  float: left;
+  position:relative;
+}
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-right: 20%;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-item {
+  position: relative;
+  width: 338px;
+  height: 553px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  margin-top: 70px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 338px;
+  height: 398px;
+  width: 100%;
+}
+.productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.productos .productos-text h2 {
+  font-size: 19px;
+  margin: 0;
+  font-size: 19px;
+  color: #0D0D0D;
+}
+.productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+  text-decoration:line-through;
+}
+.productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+}
+.productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+}
+.catalogo {
+  margin-left: 4%;
+}
+
+/********** About CSS **********/
+
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  width: 100%;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about{
+      position: relative;
+      display: block;
+      text-align: center;
+  }
+  .about .about__centrado{
+      display: block;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-family:BodoniXT;
+  }
+  .about .encabezados {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+    display: block;
+    position: relative;
+  }
+  .fotos .card .card-title {
+    display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-family:BodoniXT;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px)  {
+  header {
+    margin-left: 40%;
+  }
+  .contactos {
+    display: none; }
+  .collapse {
+    display: none; }
+  .redesespacio-footer {
+    display: none; }
+  .footer-redes {
+    display: none; }
+  .footer-list {
+    display: none; }
+  .contactos {
+    display: none; }
+  .imagen-mapa img {
+    display: none; } 
+/*********** Productos CSS **********/
+.card {
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px; 
+  margin: 2rem;
+  margin-left: 10%;
+  float: left;
+  position:relative;
+}
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-left: 30%;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-item {
+  position: relative;
+  width: 338px;
+  height: 553px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  margin-top: 70px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 338px;
+  height: 398px;
+  width: 100%;
+}
+.productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.productos .productos-text h2 {
+  font-size: 19px;
+  margin: 0;
+  font-size: 19px;
+  color: #0D0D0D;
+}
+.productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+  text-decoration:line-through;
+}
+.productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+}
+.productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+}
+.catalogo {
+  margin-left: 2%;
+}
+
+/********** About CSS **********/
+
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  width: 100%;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about .about__texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .about .about__centrado{
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-family:BodoniXT;
+  }
+  .about .encabezados {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+  }
+  .card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-family:BodoniXT;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .margin-footer{
+    flex-direction: column;
+  }
+  .footer__responsive{
+    font-size: large;
+  }
+ /*********** Productos CSS **********/
+.card {
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px; 
+  margin: 2rem;
+  float: left;
+  position:relative;
+}
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-left: 20%;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-item {
+  position: relative;
+  width: 338px;
+  height: 553px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-top: 70px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 338px;
+  height: 398px;
+  width: 100%;
+}
+.productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.productos .productos-text h2 {
+  font-size: 19px;
+  margin: 0;
+  font-size: 19px;
+  color: #0D0D0D;
+}
+.productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+  text-decoration:line-through;
+}
+.productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+}
+.productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+}
+.catalogo {
+  margin-left: 4%;
+}
+
+/********** About CSS **********/
+
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  width: 100%;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about{
+      position: relative;
+      display: block;
+      text-align: center;
+  }
+  .about .about__centrado{
+      display: block;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-family:BodoniXT;
+  }
+  .about .encabezados {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+  }
+  .card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-family:BodoniXT;
+  }
+}
+
+@media (max-width: 576px)  {
+  .navbar-expand-sm .navbar-nav .nav-link {
+    margin: 2px;
+  }
+  .header-mobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: center;
+  margin-left: 13rem; }
+
+  .margin-footer{
+    margin-left: 4rem;
+  }
+/*********** Productos CSS **********/
+.card {
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px; 
+  margin: 2rem;
+  float: left;
+  position:relative;
+}
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-left: 2rem;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-item {
+  position: relative;
+  width: 338px;
+  height: 553px;
+  margin-bottom: 30px;
+  margin-left: none;
+  margin-top: 70px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 338px;
+  height: 398px;
+}
+.productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.productos .productos-text h2 {
+  font-size: 19px;
+  margin: 0;
+  font-size: 19px;
+  color: #0D0D0D;
+}
+.productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+  text-decoration:line-through;
+}
+.productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+}
+.productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+}
+.catalogo {
+  margin-left: 4%;
+}
+
+/********** About CSS **********/
+
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  width: 100%;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about{
+      position: relative;
+      display: block;
+      text-align: center;
+  }
+  .about .about__centrado{
+      display: block;
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 80px;
+      font-family:BodoniXT;
+  }
+  .about .encabezados {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+  }
+  .card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 10em;
+      font-family:BodoniXT;
+  }
+}
+
+/*Arreglando lo que se rompe */
+ @media (max-width: 900px) {
+.margin-footer{
+  width: 40rem;
+}
+}
+@media (min-width: 430px) and (max-width: 500px) {
+  .margin-footer{
+    width: 24rem;
+  }
+  }
+  @media (max-width: 430px) {
+    .margin-footer{
+      width: 17rem;
+      font-size: medium;
+      margin-left: 3rem;
+    }
+    }
+
+@media (min-width: 500px) and (max-width: 750px) {
+  .margin-footer{
+    width: 30rem;
+  }
+  }
+  @media (max-width: 700px) {
+    .margin-footer{
+      flex-direction: column;
+    }
+    } 
+
+/* @media (max-width: 576px) {
+  #prueba{
+    background: black;
+    height: auto;
+    border-top: 2px solid rgba(0, 0, 0, 0.24);  
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+    }  */
+
+      @media (min-width: 575px) and (max-width: 679px) {
+      .header-mobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: center;
+      margin-left: 13rem; }
+    }
+
+    @media (max-width: 328px) {
+      .footer__responsive{
+        font-size: 9px;
+      }
+      .footext{
+        font-size: small;
+        margin-right: 3rem;
+      }
+      .conection {
+        font-size: 15px;
+      }
+      .footer__responsive3{
+        font-size: 15px;
+      }
+      /* .header-mobile{
+        width: min-content;
+      } */
+
+    .quienes{
+      margin-top: 2rem;
+    }
+/*********** Productos CSS **********/
+.card {
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px; 
+  margin: 2rem;
+  float: left;
+  position:relative;
+}
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-left: 2%;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-item {
+  position: relative;
+  width: 338px;
+  height: 553px;
+  margin-bottom: 30px;
+  margin-left: none;
+  margin-top: 70px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 338px;
+  height: 398px;
+}
+.productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.productos .productos-text h2 {
+  font-size: 19px;
+  margin: 0;
+  font-size: 19px;
+  color: #0D0D0D;
+}
+.productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+  text-decoration:line-through;
+}
+.productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+}
+.productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+}
+.catalogo {
+  margin-left: 4%;
+}
+
+/********** About CSS **********/
+
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  width: 100%;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  }
+  .about .about__texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .about .about__centrado{
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 80px;
+      font-family:BodoniXT;
+  }
+  .about .encabezados {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+  }
+  .fotos .card .card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 30px;
+      font-family:BodoniXT;
+  }
+}
+
