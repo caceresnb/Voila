@@ -25,7 +25,7 @@ function renderizarStock(stock) {
 
         htmlStock = `<div class="three columns">
         <div class="productos-item card">
-            <img src="../img/${stock[j].img}" class="card-img-top productos-img" alt="...">
+            <img src="../img/primerStock/${stock[j].img}" class="card-img-top productos-img" alt="...">
             <div class="productos-text card-body">
                 <h2>${stock[j].titulo}</h2>
                 <span>$${stock[j].precioReal}</span> <h4>${stock[j].precioRebajado}</h4>
