@@ -1,7 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', e => {
-  // fetch("https://raw.githubusercontent.com/caceresnb/Voila/main/js/stock.json")
-  fetch("https://raw.githubusercontent.com/yoelysfigueredopadron/Ejemplo/main/stock.json")
+    fetch("https://raw.githubusercontent.com/caceresnb/Voila/main/js/stock.json")
     .then(o => o.json()) // promesa1 nos devuelve un response y lo covertimos a JSON
     .then(jsonObject => renderizarStock(jsonObject)) // utilizamos la data (el JSON)
 
