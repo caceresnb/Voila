@@ -23,7 +23,7 @@ function renderizarStock(stock) {
     for (let j = indiceInicial; j < stock.length && j < indiceInicial + cantColumn; j++) {
 
 
-      htmlStock = `<div class="two columns">
+      htmlStock =  `
         <div class="productos-item card">
             <img src="img/primerStock/${stock[j].img}" class="card-img-top productos-img" alt="...">
             <div class="productos-text card-body">
@@ -31,7 +31,6 @@ function renderizarStock(stock) {
                 <span>$${stock[j].precioReal}</span> <h4>${stock[j].precioRebajado}</h4>
             <p>${stock[j].dataId}</p>
             </div>
-        </div>
         </div>`
 
       fila += htmlStock;
