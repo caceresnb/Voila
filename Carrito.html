@@ -88,9 +88,9 @@
         <div class="pedidosOnline">
             <div class="encabezadoChango">
                 <img class="encabezadoChango__chango" src="img/carrito nene.jpg">
-                <h1 class="encabezadoChango__titulo">Encargue su pedido online:</h1>
+                <h1 id="tituloChango" class="encabezadoChango__titulo">Encargue su pedido online:</h1>
             </div>
-            <form id="formProducto"action= "contacto.php" method="get">
+            <form id="formProducto"action= "#" method="get">
                 <label class="form-label" for="Producto">Producto</label>
                 <select class = "opciones"name="Producto" id="articulo"> 
                     <option>...</option>
@@ -107,7 +107,10 @@
                 <hr>
                 <label class="form-label"for="talle">Talle:</label><input id="talle" class="short input" type="numbers" value="" required>
                 <hr>
-                <button type="submit" class="btn btn-primary">Cargar Producto</button><br><br>
+                <hr>
+                <label class="form-label"for="talle">Color:</label><input id="talle" class="short input" type="text" value="" required>
+                <hr>
+                <button type="submit" id ="boton1" class="btn btn-primary">Cargar Producto</button><br><br>
             </form>
             <button class="btn btn-dark" id="botonProductos">Mostrar Productos</button>
             <div id="divProductos" class="row"></div>
@@ -220,7 +223,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init({once:"true"});</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="js/carrito.js"></script>
+    <script src="js/jquery-carrito.js"></script>
     <!-- LIBRERIAS SCRIPT -->
 
 </body>
