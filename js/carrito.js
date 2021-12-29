@@ -32,11 +32,14 @@ botonProductos.addEventListener('click', () => {
   if(divProductos.children.length == 0) {
       productosEnStorage.forEach((productoEnArray, indice) => {
           divProductos.innerHTML += `
-              <div class="card" id="producto${indice}" style="width: 10rem;">
+              <div class="card" id="producto${indice}" style="width: 14rem;">
                   <div class="card-body">
-                      <h5 class="card-title">${productoEnArray.articulo}</h5>
-                      <p class="card-text">${productoEnArray.cantidad}</p>
-                      <p class="card-text">$${productoEnArray.talle}</p>
+                      <h5 class="card-title">Artículo : ${productoEnArray.articulo}</h5>
+                      <br>
+                      <p class="card-text">Cantidad : ${productoEnArray.cantidad}</p>
+                      <br>
+                      <p class="card-text">Talle : ${productoEnArray.talle}</p>
+                      <br>
                       <button type="button" class="btn btn-danger" id="boton${indice}">Eliminar</button>
                   </div>
               </div>
