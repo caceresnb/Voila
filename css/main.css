@@ -407,6 +407,7 @@ footer {
 }
   .about .about__foto {
     width: 70%;
+    opacity: 70%;
     margin-bottom: 6em;
     margin-top: 2em;
     border-style: groove;
