@@ -81,12 +81,14 @@
 
     <main>
         <div>
+            <center>
                 <h4 class="catalogo" >Home<strong>&nbsp;&gt; </strong>Carrito</h4>
+            </center>
         </div>
         <div class="pedidosOnline">
             <div class="encabezadoChango">
-                <img class="encabezadoChango__chango" src="img/carrito nene.jpg">
-                <h1 id="tituloChango" class="encabezadoChango__titulo">Encargue su pedido online:</h1>
+                <img id= "chango"class="encabezadoChango__chango" src="img/carrito nene.jpg">
+                <h1 id="tituloChango" class="titulo encabezadoChango__titulo">Encargue su pedido online:</h1>
             </div>
             <form id="formProducto"action= "#" method="get">
                 <label class="form-label" for="Producto">Producto</label>
@@ -101,16 +103,16 @@
                     <option>007</option>
                     <option>008</option>
                 </select>
-                <label class="form-label"for="Cantidad">Cantidad:</label><input id="cantidad" class="short input" type="numbers" value="" required>
+                <label class="form-label short-cantidad"for="Cantidad">Cantidad:</label><input id="cantidad" class=" short input" type="numbers" value="" required>
                 <hr>
-                <label class="form-label"for="talle">Talle:</label><input id="talle" class="short input" type="numbers" value="" required>
-                <label class="form-label"for="talle">Color:</label><input id="talle" class="short input" type="text" value="" required>
+                <label class="form-label"for="talle">Talle:</label><input id="talle" class="short short-talle input" type="numbers" value="" required>
+                <label class="form-label"for="talle">Color:</label><input id="color" class="short input" type="text" value="" required>
                 <hr>
-                <button type="submit" id ="boton1" class="btn btn-primary">Cargar Producto</button><br><br>
+                <button type="submit" id ="boton1" class="btn cargar ">Cargar Producto</button>
+                <button class="btn mostrar" id="botonProductos">Mostrar Productos</button>
+                <div id="divProductos" class="row"></div>
+                <p id="mensajeAmigable"></p>
             </form>
-            <button class="btn btn-dark" id="botonProductos">Mostrar Productos</button>
-            <div id="divProductos" class="row"></div>
-            <p id="mensajeAmigable"></p>
         </div>
     </main>
     <!-- Productos End -->
