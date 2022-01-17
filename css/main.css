@@ -535,12 +535,15 @@ main {
   width: 230px;
 }
 
-/* Agregado por titi - sirve  */
+
 
 @media (max-width: 576px) {
   #prueba{
     display: none;
   }
+  main {
+  margin-top: 14vw;
+}
 }
 
 @media (max-width: 576px) {
@@ -798,6 +801,9 @@ main {
     display: none; }
   .redesespacio-footer {
     display: none; } 
+  main {
+  margin-top: 13vw;
+}
 /*********** Productos CSS **********/
 .card {
   flex-direction: column;
@@ -939,6 +945,9 @@ main {
   header {
     margin-left: 40%;
   }
+  main {
+  margin-top: 13vw;
+}
   .contactos {
     display: none; }
   .collapse {
@@ -1088,6 +1097,9 @@ main {
   .margin-footer{
     flex-direction: column;
   }
+  main {
+  margin-top: 13vw;
+}
   .footer__responsive{
     font-size: large;
   }
@@ -1215,6 +1227,9 @@ main {
   .navbar-expand-sm .navbar-nav .nav-link {
     margin: 2px;
   }
+  main {
+  margin-top: 13vw;
+}
   .header-mobile {
     display: flex;
     flex-direction: row;
